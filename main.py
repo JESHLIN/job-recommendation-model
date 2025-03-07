@@ -24,26 +24,6 @@ def load_spacy_model():
 
 nlp = load_spacy_model()
 
-# Weightages
-talent_weights = {
-    "Skills": 0.24,
-    "Experience": 0.20,
-    "Industry Fit": 0.16,
-    "Portfolio": 0.08,
-    "Willingness": 0.08,
-    "Feedback": 0.04,
-    "Hourly Rate": 0.20,
-}
-
-business_weights = {
-    "Skills": 0.20,
-    "Experience": 0.16,
-    "Industry Fit": 0.24,
-    "Feedback": 0.12,
-    "Business Growth": 0.08,
-    "Hourly Rate": 0.20,
-}
-
 # Preprocess text
 def preprocess_text(text):
     """Cleans and preprocesses text data."""
