@@ -24,6 +24,8 @@ def load_spacy_model():
 
 nlp = load_spacy_model()
 
+#mention your weightages here as talent_weights and business_weights
+
 # Preprocess text
 def preprocess_text(text):
     """Cleans and preprocesses text data."""
